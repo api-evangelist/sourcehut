@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://sourcehut.org",
+  "name": "SourceHut",
+  "description": "Privacy-focused software development platform with GraphQL APIs for managing Git and Mercurial repositories, mailing lists, issue trackers, CI build services, wikis, paste, and static web hosting. All services expose OAuth 2.0-authenticated GraphQL endpoints with webhook support.",
+  "url": "https://sourcehut.org",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://git.sr.ht/~sircmpwn"
+  ],
+  "knowsAbout": [
+    "Git",
+    "Mercurial",
+    "Source Control",
+    "Continuous Integration",
+    "Mailing Lists",
+    "Issue Tracking",
+    "Developer Tools",
+    "Open Source",
+    "Privacy",
+    "GraphQL"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SourceHut Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "git.sr.ht GraphQL API",
+        "description": "GraphQL API for managing Git repositories, branches, commits, tags, artifacts, access control lists, and repository webhooks on SourceHut.",
+        "url": "https://docs.sourcehut.org/git.sr.ht/"
+      },
+      {
+        "@type": "Offer",
+        "name": "hg.sr.ht GraphQL API",
+        "description": "GraphQL API for managing Mercurial repositories on SourceHut, including repository operations, webhooks, and access control.",
+        "url": "https://docs.sourcehut.org/hg.sr.ht/"
+      },
+      {
+        "@type": "Offer",
+        "name": "builds.sr.ht GraphQL API",
+        "description": "GraphQL API for submitting and managing continuous integration build jobs across Linux distributions and BSDs on SourceHut.",
+        "url": "https://docs.sourcehut.org/builds.sr.ht/"
+      },
+      {
+        "@type": "Offer",
+        "name": "todo.sr.ht GraphQL API",
+        "description": "GraphQL API for managing bug trackers and ticket systems for software projects on SourceHut.",
+        "url": "https://docs.sourcehut.org/todo.sr.ht/"
+      },
+      {
+        "@type": "Offer",
+        "name": "lists.sr.ht GraphQL API",
+        "description": "GraphQL API for managing mailing lists and email-based code review workflows on SourceHut.",
+        "url": "https://docs.sourcehut.org/lists.sr.ht/"
+      },
+      {
+        "@type": "Offer",
+        "name": "meta.sr.ht GraphQL API",
+        "description": "GraphQL API for account management, OAuth 2.0 token and client administration, SSH keys, PGP keys, and user profile operations on SourceHut.",
+        "url": "https://man.sr.ht/meta.sr.ht/"
+      },
+      {
+        "@type": "Offer",
+        "name": "paste.sr.ht GraphQL API",
+        "description": "GraphQL API for creating and managing text pastes on SourceHut.",
+        "url": "https://docs.sourcehut.org/paste.sr.ht/"
+      },
+      {
+        "@type": "Offer",
+        "name": "man.sr.ht GraphQL API",
+        "description": "GraphQL API for creating and managing wiki and manual pages hosted on SourceHut using git-backed Markdown content.",
+        "url": "https://docs.sourcehut.org/man.sr.ht/"
+      },
+      {
+        "@type": "Offer",
+        "name": "pages.sr.ht GraphQL API",
+        "description": "GraphQL API for managing static web hosting on SourceHut, deploying sites to srht.site domains.",
+        "url": "https://docs.sourcehut.org/pages.sr.ht/"
+      }
+    ]
+  },
+  "subjectOf": [
+    {
+      "@type": "BlogPosting",
+      "headline": "What's cooking on SourceHut? Q2 2026",
+      "url": "https://sourcehut.org/blog/2026-05-28-whats-cooking-q2-2026/",
+      "datePublished": "2026-05-28",
+      "author": [
+        {"@type": "Person", "name": "Drew DeVault"},
+        {"@type": "Person", "name": "Conrad Hoffmann"}
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "What's cooking on SourceHut? Q1 2026",
+      "url": "https://sourcehut.org/blog/2026-02-18-whats-cooking-q1-2026/",
+      "datePublished": "2026-02-18",
+      "author": [
+        {"@type": "Person", "name": "Drew DeVault"},
+        {"@type": "Person", "name": "Conrad Hoffmann"}
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Proposed price increases for SourceHut",
+      "url": "https://sourcehut.org/blog/2025-12-01-proposed-price-increases-for-sourcehut/",
+      "datePublished": "2025-12-01",
+      "author": [
+        {"@type": "Person", "name": "Drew DeVault"}
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "What's cooking on SourceHut? Q4 2025",
+      "url": "https://sourcehut.org/blog/2025-11-20-whats-cooking-q4-2025/",
+      "datePublished": "2025-11-20",
+      "author": [
+        {"@type": "Person", "name": "Drew DeVault"},
+        {"@type": "Person", "name": "Conrad Hoffmann"}
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "What's cooking on SourceHut? Q3 2025",
+      "url": "https://sourcehut.org/blog/2025-09-01-whats-cooking-q3-2025/",
+      "datePublished": "2025-09-01",
+      "author": [
+        {"@type": "Person", "name": "Drew DeVault"},
+        {"@type": "Person", "name": "Conrad Hoffmann"}
+      ]
+    }
+  ]
+}

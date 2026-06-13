@@ -1,0 +1,41 @@
+{
+  "url": "https://sourcehut.org/blog/",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "What's cooking on SourceHut? Q2 2026",
+      "url": "https://sourcehut.org/blog/2026-05-28-whats-cooking-q2-2026/",
+      "date": "2026-05-28",
+      "authors": ["Drew DeVault", "Conrad Hoffmann"],
+      "summary": "Quarterly update covering a joint EU grant proposal with other open source forges, plans to enhance GraphQL APIs, mitigation of a major DDoS attack that exposed internal network routing vulnerabilities, spam sign-up prevention via keyword-based abuse detection, deploy keys for git.sr.ht, and a Python-to-Go migration for the builds.sr.ht shell."
+    },
+    {
+      "title": "What's cooking on SourceHut? Q1 2026",
+      "url": "https://sourcehut.org/blog/2026-02-18-whats-cooking-q1-2026/",
+      "date": "2026-02-18",
+      "authors": ["Drew DeVault", "Conrad Hoffmann"],
+      "summary": "New pricing now active for fresh accounts with existing users grandfathered. Redesigned profile pages with avatars and pronouns, improved email formatting, and resource IDs (rids) for the GraphQL API that are stable through renaming or ownership changes. Work beginning on organizational accounts support and PXE-boot/IPMI monitoring infrastructure."
+    },
+    {
+      "title": "Proposed price increases for SourceHut",
+      "url": "https://sourcehut.org/blog/2025-12-01-proposed-price-increases-for-sourcehut/",
+      "date": "2025-12-01",
+      "authors": ["Drew DeVault"],
+      "summary": "Announced pricing adjustments effective January 2026: new standard rates of €4/€8/€12 (or $5/$10/$15). Existing subscribers grandfathered indefinitely. EU customers paying in USD will incur VAT. Increases driven by inflation eroding margins since 2018; all profits reinvested into FOSS development."
+    },
+    {
+      "title": "What's cooking on SourceHut? Q4 2025",
+      "url": "https://sourcehut.org/blog/2025-11-20-whats-cooking-q4-2025/",
+      "date": "2025-11-20",
+      "authors": ["Drew DeVault", "Conrad Hoffmann"],
+      "summary": "Significant technical debt reduction including removal of the legacy REST API and GraphQL codegen across frontends. Plans for commit trailer support and improved project hub integration. Infrastructure upgrades to Ceph 18, replacing Alembic with sourcehut-migrate, enabling GraphQL introspection, and migrating additional services to Kubernetes."
+    },
+    {
+      "title": "What's cooking on SourceHut? Q3 2025",
+      "url": "https://sourcehut.org/blog/2025-09-01-whats-cooking-q3-2025/",
+      "date": "2025-09-01",
+      "authors": ["Drew DeVault", "Conrad Hoffmann"],
+      "summary": "Completion of billing system overhaul now accepting Euro payments. Transitioning from legacy REST API to GraphQL. sourcehut-ssh as unified SSH infrastructure, sourcehut-migrate as Alembic replacement, improvements to the GraphQL playground, upgraded monitoring infrastructure, and Ceph cluster maintenance without downtime."
+    }
+  ]
+}
