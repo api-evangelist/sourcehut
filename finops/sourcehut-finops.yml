@@ -1,0 +1,35 @@
+name: SourceHut FinOps
+description: Financial operations considerations for teams and organizations using SourceHut APIs and services. SourceHut uses a simple flat monthly subscription model with no usage-based charges or metered API costs.
+url: https://sourcehut.org/pricing/
+model: flat-rate subscription
+cost_drivers:
+  - name: Monthly Subscription
+    description: The sole cost driver is the monthly subscription fee chosen by the user. All API usage, builds, storage, and bandwidth are included with no overage charges.
+    type: fixed
+    tiers:
+      - label: Amateur
+        monthly_usd: 4.00
+        monthly_eur: 4.00
+      - label: Typical
+        monthly_usd: 8.00
+        monthly_eur: 8.00
+      - label: Professional
+        monthly_usd: 12.00
+        monthly_eur: 12.00
+  - name: CI Build Minutes
+    description: Continuous integration builds via builds.sr.ht are included in the subscription. There is no published per-minute build cost; usage is subject to fair use and complexity limits.
+    type: included
+  - name: Storage and Bandwidth
+    description: Git/Mercurial repository storage and artifact hosting are included. No separate storage tier pricing is documented publicly.
+    type: included
+optimization_tips:
+  - Use personal access tokens scoped narrowly to reduce accidental resource consumption.
+  - Leverage cursor-based pagination (25 items/page default) to avoid high-complexity GraphQL queries that may be rejected.
+  - Use the hut CLI for bulk exports and data operations to avoid repeated API calls.
+  - Contributing users (not hosting their own projects) do not require a paid subscription.
+  - Request financial aid if subscription cost is a barrier; SourceHut has a stated policy of never pricing out users.
+notes:
+  - SourceHut is in public alpha; pricing and billing structures may evolve.
+  - The platform announced proposed price increases in December 2025; verify current pricing at sourcehut.org/pricing.
+  - No enterprise contracts, volume discounts, or SLA tiers are documented.
+  - Self-hosting the open-source SourceHut software is free; costs shift to infrastructure.

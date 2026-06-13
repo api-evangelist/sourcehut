@@ -1,0 +1,24 @@
+name: SourceHut Rate Limits
+description: SourceHut enforces rate limits primarily through GraphQL query complexity scoring and per-request time caps rather than traditional request-per-minute quotas. All authenticated tiers share the same limits.
+url: https://man.sr.ht/graphql.md
+limits:
+  - name: GraphQL Query Complexity
+    description: Each GraphQL query is scored for complexity. Requests exceeding the complexity cap are rejected.
+    value: 200
+    unit: complexity points per request
+    scope: all GraphQL API endpoints
+  - name: GraphQL Request Time Cap
+    description: Server-side processing time is capped per GraphQL request to prevent abuse.
+    value: 3
+    unit: seconds per request
+    scope: all GraphQL API endpoints
+  - name: Cursor Pagination Default Page Size
+    description: Cursored list results are capped at 25 items per page by default; callers must paginate with opaque cursor tokens.
+    value: 25
+    unit: items per paginated response
+    scope: all GraphQL list/cursor queries
+notes:
+  - SourceHut does not publish explicit per-minute or per-day request quotas in public documentation.
+  - Rate limiting for unauthenticated or abusive traffic (e.g., AI scraping bots) may result in temporary route disabling, as noted in past incident reports on status.sr.ht.
+  - OAuth 2.0 scopes restrict what each token can access; personal access tokens have unrestricted scope.
+  - The hut CLI tool is the recommended method for bulk data operations and exports to stay within complexity limits.

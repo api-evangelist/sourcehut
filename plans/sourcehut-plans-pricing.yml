@@ -1,0 +1,42 @@
+name: SourceHut Plans and Pricing
+description: SourceHut offers three pay-what-you-can subscription tiers. All tiers grant identical full access to all services including Git/Mercurial hosting, CI builds, mailing lists, bug tracking, wikis, paste, and pages. The pricing model is self-selected based on financial capacity, not feature differences.
+url: https://sourcehut.org/pricing/
+plans:
+  - name: Amateur Hackers
+    description: Full access to all SourceHut services at the entry-level price point, intended for hobbyists or those with limited budgets.
+    price: 4.00
+    currency: USD
+    period: monthly
+    features:
+      - Git repository hosting (git.sr.ht)
+      - Mercurial repository hosting (hg.sr.ht)
+      - Continuous integration builds (builds.sr.ht)
+      - Mailing lists and code review (lists.sr.ht)
+      - Bug and ticket tracking (todo.sr.ht)
+      - IRC bouncer (chat.sr.ht)
+      - Wiki and manual hosting (man.sr.ht)
+      - Paste service (paste.sr.ht)
+      - Static web hosting (pages / srht.site)
+      - GraphQL API access for all services
+      - OAuth 2.0 personal access tokens
+      - PGP encryption and 2FA support
+  - name: Typical Hackers
+    description: Full access to all SourceHut services at a mid-range price point, for users who want to pay a fair market rate.
+    price: 8.00
+    currency: USD
+    period: monthly
+    features:
+      - All features from the Amateur Hackers tier
+  - name: Professional Hackers
+    description: Full access to all SourceHut services at the highest price point, for professional users who wish to support the platform more generously.
+    price: 12.00
+    currency: USD
+    period: monthly
+    features:
+      - All features from the Amateur Hackers tier
+notes:
+  - All plans are identical in features; price selection is voluntary based on capacity.
+  - SourceHut also accepts EUR pricing at the same numeric amounts (€4, €8, €12).
+  - Financial aid is available for those unable to afford any subscription tier.
+  - Contributing users (collaborators on others' projects) do not need a paid subscription.
+  - Platform is in public alpha; pricing may change as the platform matures.
