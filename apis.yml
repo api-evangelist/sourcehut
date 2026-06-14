@@ -1,195 +1,198 @@
 aid: sourcehut
 name: SourceHut
-description: Privacy-focused software development platform with GraphQL APIs for managing Git and Mercurial repositories, mailing lists, issue trackers, CI build services, wikis, paste, and static web hosting. All services expose OAuth 2.0-authenticated GraphQL endpoints with webhook support.
+description: Privacy-focused software development platform with GraphQL APIs for managing
+  Git and Mercurial repositories, mailing lists, issue trackers, CI build services,
+  wikis, paste, and static web hosting. All services expose OAuth 2.0-authenticated
+  GraphQL endpoints with webhook support.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
 specificationVersion: '0.19'
 tags:
-  - Git
-  - Mercurial
-  - Source Control
-  - Continuous Integration
-  - Mailing Lists
-  - Issue Tracking
-  - Developer Tools
-  - Open Source
-  - Privacy
-  - GraphQL
+- Git
+- Mercurial
+- Source Control
+- Continuous Integration
+- Mailing Lists
+- Issue Tracking
+- Developer Tools
+- Open Source
+- Privacy
+- GraphQL
 apis:
-  - aid: sourcehut:git-sr-ht
-    name: git.sr.ht GraphQL API
-    description: GraphQL API for managing Git repositories, branches, commits, tags, artifacts, access control lists, and repository webhooks on SourceHut.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.sourcehut.org/git.sr.ht/
-    baseURL: https://git.sr.ht/graphql
-    tags:
-      - Git
-      - Repositories
-      - Source Control
-      - Webhooks
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://docs.sourcehut.org/git.sr.ht/
-      - type: GraphQL
-        url: https://git.sr.ht/graphql
-
-  - aid: sourcehut:hg-sr-ht
-    name: hg.sr.ht GraphQL API
-    description: GraphQL API for managing Mercurial repositories on SourceHut, including repository operations, webhooks, and access control.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.sourcehut.org/hg.sr.ht/
-    baseURL: https://hg.sr.ht/graphql
-    tags:
-      - Mercurial
-      - Repositories
-      - Source Control
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://docs.sourcehut.org/hg.sr.ht/
-      - type: GraphQL
-        url: https://hg.sr.ht/graphql
-
-  - aid: sourcehut:builds-sr-ht
-    name: builds.sr.ht GraphQL API
-    description: GraphQL API for submitting and managing continuous integration build jobs across Linux distributions and BSDs on SourceHut.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.sourcehut.org/builds.sr.ht/
-    baseURL: https://builds.sr.ht/graphql
-    tags:
-      - Continuous Integration
-      - Build Automation
-      - CI/CD
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://docs.sourcehut.org/builds.sr.ht/
-      - type: GraphQL
-        url: https://builds.sr.ht/graphql
-
-  - aid: sourcehut:todo-sr-ht
-    name: todo.sr.ht GraphQL API
-    description: GraphQL API for managing bug trackers and ticket systems for software projects on SourceHut.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.sourcehut.org/todo.sr.ht/
-    baseURL: https://todo.sr.ht/graphql
-    tags:
-      - Issue Tracking
-      - Bug Tracker
-      - Project Management
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://docs.sourcehut.org/todo.sr.ht/
-      - type: GraphQL
-        url: https://todo.sr.ht/graphql
-
-  - aid: sourcehut:lists-sr-ht
-    name: lists.sr.ht GraphQL API
-    description: GraphQL API for managing mailing lists and email-based code review workflows on SourceHut, powered by git send-email conventions.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.sourcehut.org/lists.sr.ht/
-    baseURL: https://lists.sr.ht/graphql
-    tags:
-      - Mailing Lists
-      - Email
-      - Code Review
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://docs.sourcehut.org/lists.sr.ht/
-      - type: GraphQL
-        url: https://lists.sr.ht/graphql
-
-  - aid: sourcehut:meta-sr-ht
-    name: meta.sr.ht GraphQL API
-    description: GraphQL API for account management, OAuth 2.0 token and client administration, SSH keys, PGP keys, and user profile operations on SourceHut.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://man.sr.ht/meta.sr.ht/
-    baseURL: https://meta.sr.ht/graphql
-    tags:
-      - Account Management
-      - OAuth
-      - Authentication
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://man.sr.ht/meta.sr.ht/
-      - type: GraphQL
-        url: https://meta.sr.ht/graphql
-
-  - aid: sourcehut:paste-sr-ht
-    name: paste.sr.ht GraphQL API
-    description: GraphQL API for creating and managing text pastes on SourceHut.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.sourcehut.org/paste.sr.ht/
-    baseURL: https://paste.sr.ht/graphql
-    tags:
-      - Paste
-      - Text Sharing
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://docs.sourcehut.org/paste.sr.ht/
-      - type: GraphQL
-        url: https://paste.sr.ht/graphql
-
-  - aid: sourcehut:man-sr-ht
-    name: man.sr.ht GraphQL API
-    description: GraphQL API for creating and managing wiki and manual pages hosted on SourceHut using git-backed Markdown content.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.sourcehut.org/man.sr.ht/
-    baseURL: https://man.sr.ht/graphql
-    tags:
-      - Wiki
-      - Documentation
-      - Markdown
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://docs.sourcehut.org/man.sr.ht/
-      - type: GraphQL
-        url: https://man.sr.ht/graphql
-
-  - aid: sourcehut:pages-sr-ht
-    name: pages.sr.ht GraphQL API
-    description: GraphQL API for managing static web hosting on SourceHut, deploying sites to srht.site domains.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.sourcehut.org/pages.sr.ht/
-    baseURL: https://pages.sr.ht/graphql
-    tags:
-      - Static Hosting
-      - Web Pages
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://docs.sourcehut.org/pages.sr.ht/
-      - type: GraphQL
-        url: https://pages.sr.ht/graphql
-
-common:
-  - type: Website
-    url: https://sourcehut.org
+- aid: sourcehut:git-sr-ht
+  name: git.sr.ht GraphQL API
+  description: GraphQL API for managing Git repositories, branches, commits, tags,
+    artifacts, access control lists, and repository webhooks on SourceHut.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.sourcehut.org/git.sr.ht/
+  baseURL: https://git.sr.ht/graphql
+  tags:
+  - Git
+  - Repositories
+  - Source Control
+  - Webhooks
+  - GraphQL
+  properties:
   - type: Documentation
-    url: https://man.sr.ht
-  - type: Blog
-    url: https://sourcehut.org/blog/
-  - type: Pricing
-    url: https://sourcehut.org/pricing/
-  - type: StatusPage
-    url: https://status.sr.ht
-  - type: GitHubOrg
-    url: https://git.sr.ht/~sircmpwn
-  - type: Plans
-    url: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/plans/sourcehut-plans-pricing.yml
-  - type: RateLimits
-    url: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/rate-limits/sourcehut-rate-limits.yml
-  - type: FinOps
-    url: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/finops/sourcehut-finops.yml
-
+    url: https://docs.sourcehut.org/git.sr.ht/
+  - type: GraphQL
+    url: https://git.sr.ht/graphql
+  - url: graphql/sourcehut-graphql.md
+    type: GraphQL
+- aid: sourcehut:hg-sr-ht
+  name: hg.sr.ht GraphQL API
+  description: GraphQL API for managing Mercurial repositories on SourceHut, including
+    repository operations, webhooks, and access control.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.sourcehut.org/hg.sr.ht/
+  baseURL: https://hg.sr.ht/graphql
+  tags:
+  - Mercurial
+  - Repositories
+  - Source Control
+  - GraphQL
+  properties:
+  - type: Documentation
+    url: https://docs.sourcehut.org/hg.sr.ht/
+  - type: GraphQL
+    url: https://hg.sr.ht/graphql
+- aid: sourcehut:builds-sr-ht
+  name: builds.sr.ht GraphQL API
+  description: GraphQL API for submitting and managing continuous integration build
+    jobs across Linux distributions and BSDs on SourceHut.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.sourcehut.org/builds.sr.ht/
+  baseURL: https://builds.sr.ht/graphql
+  tags:
+  - Continuous Integration
+  - Build Automation
+  - CI/CD
+  - GraphQL
+  properties:
+  - type: Documentation
+    url: https://docs.sourcehut.org/builds.sr.ht/
+  - type: GraphQL
+    url: https://builds.sr.ht/graphql
+- aid: sourcehut:todo-sr-ht
+  name: todo.sr.ht GraphQL API
+  description: GraphQL API for managing bug trackers and ticket systems for software
+    projects on SourceHut.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.sourcehut.org/todo.sr.ht/
+  baseURL: https://todo.sr.ht/graphql
+  tags:
+  - Issue Tracking
+  - Bug Tracker
+  - Project Management
+  - GraphQL
+  properties:
+  - type: Documentation
+    url: https://docs.sourcehut.org/todo.sr.ht/
+  - type: GraphQL
+    url: https://todo.sr.ht/graphql
+- aid: sourcehut:lists-sr-ht
+  name: lists.sr.ht GraphQL API
+  description: GraphQL API for managing mailing lists and email-based code review
+    workflows on SourceHut, powered by git send-email conventions.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.sourcehut.org/lists.sr.ht/
+  baseURL: https://lists.sr.ht/graphql
+  tags:
+  - Mailing Lists
+  - Email
+  - Code Review
+  - GraphQL
+  properties:
+  - type: Documentation
+    url: https://docs.sourcehut.org/lists.sr.ht/
+  - type: GraphQL
+    url: https://lists.sr.ht/graphql
+- aid: sourcehut:meta-sr-ht
+  name: meta.sr.ht GraphQL API
+  description: GraphQL API for account management, OAuth 2.0 token and client administration,
+    SSH keys, PGP keys, and user profile operations on SourceHut.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://man.sr.ht/meta.sr.ht/
+  baseURL: https://meta.sr.ht/graphql
+  tags:
+  - Account Management
+  - OAuth
+  - Authentication
+  - GraphQL
+  properties:
+  - type: Documentation
+    url: https://man.sr.ht/meta.sr.ht/
+  - type: GraphQL
+    url: https://meta.sr.ht/graphql
+- aid: sourcehut:paste-sr-ht
+  name: paste.sr.ht GraphQL API
+  description: GraphQL API for creating and managing text pastes on SourceHut.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.sourcehut.org/paste.sr.ht/
+  baseURL: https://paste.sr.ht/graphql
+  tags:
+  - Paste
+  - Text Sharing
+  - GraphQL
+  properties:
+  - type: Documentation
+    url: https://docs.sourcehut.org/paste.sr.ht/
+  - type: GraphQL
+    url: https://paste.sr.ht/graphql
+- aid: sourcehut:man-sr-ht
+  name: man.sr.ht GraphQL API
+  description: GraphQL API for creating and managing wiki and manual pages hosted
+    on SourceHut using git-backed Markdown content.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.sourcehut.org/man.sr.ht/
+  baseURL: https://man.sr.ht/graphql
+  tags:
+  - Wiki
+  - Documentation
+  - Markdown
+  - GraphQL
+  properties:
+  - type: Documentation
+    url: https://docs.sourcehut.org/man.sr.ht/
+  - type: GraphQL
+    url: https://man.sr.ht/graphql
+- aid: sourcehut:pages-sr-ht
+  name: pages.sr.ht GraphQL API
+  description: GraphQL API for managing static web hosting on SourceHut, deploying
+    sites to srht.site domains.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.sourcehut.org/pages.sr.ht/
+  baseURL: https://pages.sr.ht/graphql
+  tags:
+  - Static Hosting
+  - Web Pages
+  - GraphQL
+  properties:
+  - type: Documentation
+    url: https://docs.sourcehut.org/pages.sr.ht/
+  - type: GraphQL
+    url: https://pages.sr.ht/graphql
+common:
+- type: Website
+  url: https://sourcehut.org
+- type: Documentation
+  url: https://man.sr.ht
+- type: Blog
+  url: https://sourcehut.org/blog/
+- type: Pricing
+  url: https://sourcehut.org/pricing/
+- type: StatusPage
+  url: https://status.sr.ht
+- type: GitHubOrg
+  url: https://git.sr.ht/~sircmpwn
+- type: Plans
+  url: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/plans/sourcehut-plans-pricing.yml
+- type: RateLimits
+  url: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/rate-limits/sourcehut-rate-limits.yml
+- type: FinOps
+  url: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/finops/sourcehut-finops.yml
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
