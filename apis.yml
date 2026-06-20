@@ -4,7 +4,7 @@ description: Privacy-focused software development platform with GraphQL APIs for
   Git and Mercurial repositories, mailing lists, issue trackers, CI build services,
   wikis, paste, and static web hosting. All services expose OAuth 2.0-authenticated
   GraphQL endpoints with webhook support.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -25,7 +25,7 @@ apis:
   name: git.sr.ht GraphQL API
   description: GraphQL API for managing Git repositories, branches, commits, tags,
     artifacts, access control lists, and repository webhooks on SourceHut.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.sourcehut.org/git.sr.ht/
   baseURL: https://git.sr.ht/graphql
   tags:
@@ -45,7 +45,7 @@ apis:
   name: hg.sr.ht GraphQL API
   description: GraphQL API for managing Mercurial repositories on SourceHut, including
     repository operations, webhooks, and access control.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.sourcehut.org/hg.sr.ht/
   baseURL: https://hg.sr.ht/graphql
   tags:
@@ -62,7 +62,7 @@ apis:
   name: builds.sr.ht GraphQL API
   description: GraphQL API for submitting and managing continuous integration build
     jobs across Linux distributions and BSDs on SourceHut.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.sourcehut.org/builds.sr.ht/
   baseURL: https://builds.sr.ht/graphql
   tags:
@@ -79,7 +79,7 @@ apis:
   name: todo.sr.ht GraphQL API
   description: GraphQL API for managing bug trackers and ticket systems for software
     projects on SourceHut.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.sourcehut.org/todo.sr.ht/
   baseURL: https://todo.sr.ht/graphql
   tags:
@@ -96,7 +96,7 @@ apis:
   name: lists.sr.ht GraphQL API
   description: GraphQL API for managing mailing lists and email-based code review
     workflows on SourceHut, powered by git send-email conventions.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.sourcehut.org/lists.sr.ht/
   baseURL: https://lists.sr.ht/graphql
   tags:
@@ -113,7 +113,7 @@ apis:
   name: meta.sr.ht GraphQL API
   description: GraphQL API for account management, OAuth 2.0 token and client administration,
     SSH keys, PGP keys, and user profile operations on SourceHut.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://man.sr.ht/meta.sr.ht/
   baseURL: https://meta.sr.ht/graphql
   tags:
@@ -129,7 +129,7 @@ apis:
 - aid: sourcehut:paste-sr-ht
   name: paste.sr.ht GraphQL API
   description: GraphQL API for creating and managing text pastes on SourceHut.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.sourcehut.org/paste.sr.ht/
   baseURL: https://paste.sr.ht/graphql
   tags:
@@ -145,7 +145,7 @@ apis:
   name: man.sr.ht GraphQL API
   description: GraphQL API for creating and managing wiki and manual pages hosted
     on SourceHut using git-backed Markdown content.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.sourcehut.org/man.sr.ht/
   baseURL: https://man.sr.ht/graphql
   tags:
@@ -162,7 +162,7 @@ apis:
   name: pages.sr.ht GraphQL API
   description: GraphQL API for managing static web hosting on SourceHut, deploying
     sites to srht.site domains.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.sourcehut.org/pages.sr.ht/
   baseURL: https://pages.sr.ht/graphql
   tags:
