@@ -175,6 +175,8 @@ apis:
   - type: GraphQL
     url: https://pages.sr.ht/graphql
 common:
+- type: DomainSecurity
+  url: security/sourcehut-domain-security.yml
 - type: Website
   url: https://sourcehut.org
 - type: Documentation
