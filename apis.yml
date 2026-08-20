@@ -29,6 +29,17 @@ tags:
 - Mailing Lists
 - Issue Tracking
 - Developer Tools
+- Open-Source
+- Privacy
+- GraphQL
+tags_raw:
+- Git
+- Mercurial
+- Source Control
+- Continuous Integration
+- Mailing Lists
+- Issue Tracking
+- Developer Tools
 - Open Source
 - Privacy
 - GraphQL
@@ -41,6 +52,12 @@ apis:
   humanURL: https://docs.sourcehut.org/git.sr.ht/
   baseURL: https://git.sr.ht/graphql
   tags:
+  - Git
+  - Repositories
+  - Source Control
+  - Webhook
+  - GraphQL
+  tags_raw:
   - Git
   - Repositories
   - Source Control
@@ -129,6 +146,10 @@ apis:
   humanURL: https://man.sr.ht/meta.sr.ht/
   baseURL: https://meta.sr.ht/graphql
   tags:
+  - Account Management
+  - Authentication
+  - GraphQL
+  tags_raw:
   - Account Management
   - OAuth
   - Authentication
