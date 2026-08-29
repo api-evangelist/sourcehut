@@ -4,6 +4,17 @@ description: Privacy-focused software development platform with GraphQL APIs for
   Git and Mercurial repositories, mailing lists, issue trackers, CI build services,
   wikis, paste, and static web hosting. All services expose OAuth 2.0-authenticated
   GraphQL endpoints with webhook support.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
