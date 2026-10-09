@@ -9,10 +9,14 @@ front_door_ai:
   final_host: sourcehut.org
   ownership: own
   owner: sourcehut
-  shares_host_with: null
+  shares_host_with:
+  - sourcehut-graphql
   inherited_from: null
+  alias_of: null
   verdict: scored
   score: 3
+  band: 3
+  band_label: light
   host_score: 3
   density: 4.57
   words: 656
