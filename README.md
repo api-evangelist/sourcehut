@@ -1,4 +1,4 @@
-# SourceHut (sourcehut)
+# SourceHut
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,212 +66,117 @@
 
 Privacy-focused software development platform with GraphQL APIs for managing Git and Mercurial repositories, mailing lists, issue trackers, CI build services, wikis, paste, and static web hosting. All services expose OAuth 2.0-authenticated GraphQL endpoints with webhook support.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/apis.yml)
+**Areas:** Git · Mercurial · Version Control · Continuous Integration · Mailing Lists · Issue Tracking · Developer Tools · Open Source · Privacy · GraphQL
 
-## Tags
+## SourceHut on APIs.io
 
-- Git
-- Mercurial
-- Source Control
-- Continuous Integration
-- Mailing Lists
-- Issue Tracking
-- Developer Tools
-- Open Source
-- Privacy
-- GraphQL
+Everything profiled for SourceHut is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sourcehut/](https://apis.io/providers/sourcehut/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (9)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [git.sr.ht GraphQL API](https://apis.io/apis/sourcehut/git-sr-ht/) — GraphQL API for managing Git repositories, branches, commits, tags, artifacts, access control lists, and repository webhooks on SourceHut.
+- [hg.sr.ht GraphQL API](https://apis.io/apis/sourcehut/hg-sr-ht/) — GraphQL API for managing Mercurial repositories on SourceHut, including repository operations, webhooks, and access control.
+- [builds.sr.ht GraphQL API](https://apis.io/apis/sourcehut/builds-sr-ht/) — GraphQL API for submitting and managing continuous integration build jobs across Linux distributions and BSDs on SourceHut.
+- [todo.sr.ht GraphQL API](https://apis.io/apis/sourcehut/todo-sr-ht/) — GraphQL API for managing bug trackers and ticket systems for software projects on SourceHut.
+- [lists.sr.ht GraphQL API](https://apis.io/apis/sourcehut/lists-sr-ht/) — GraphQL API for managing mailing lists and email-based code review workflows on SourceHut, powered by git send-email conventions.
+- [meta.sr.ht GraphQL API](https://apis.io/apis/sourcehut/meta-sr-ht/) — GraphQL API for account management, OAuth 2.0 token and client administration, SSH keys, PGP keys, and user profile operations on SourceHut.
+- [paste.sr.ht GraphQL API](https://apis.io/apis/sourcehut/paste-sr-ht/) — GraphQL API for creating and managing text pastes on SourceHut.
+- [man.sr.ht GraphQL API](https://apis.io/apis/sourcehut/man-sr-ht/) — GraphQL API for creating and managing wiki and manual pages hosted on SourceHut using git-backed Markdown content.
+- [pages.sr.ht GraphQL API](https://apis.io/apis/sourcehut/pages-sr-ht/) — GraphQL API for managing static web hosting on SourceHut, deploying sites to srht.site domains.
 
-## APIs
+### Published properties
 
-### git.sr.ht GraphQL API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-GraphQL API for managing Git repositories, branches, commits, tags, artifacts, access control lists, and repository webhooks on SourceHut.
+#### GraphQL (1)
 
-- **Human URL:** [https://docs.sourcehut.org/git.sr.ht/](https://docs.sourcehut.org/git.sr.ht/)
-- **Base URL:** `https://git.sr.ht/graphql`
+GraphQL schemas.
 
-#### Tags
+- [Sourcehut GraphQL API](https://apis.io/graphqls/sourcehut/sourcehut-graphql/)
 
-- Git
-- Repositories
-- Source Control
-- Webhooks
-- GraphQL
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://docs.sourcehut.org/git.sr.ht/)
-- [Graph Q L](https://git.sr.ht/graphql)
-- [Graph Q L](graphql/sourcehut-graphql.md)
+- [Sourcehut Domain Security](https://apis.io/security/sourcehut/sourcehut-domain-security/)
 
-### hg.sr.ht GraphQL API
+#### Plans and pricing (1)
 
-GraphQL API for managing Mercurial repositories on SourceHut, including repository operations, webhooks, and access control.
+Published plans, tiers and prices.
 
-- **Human URL:** [https://docs.sourcehut.org/hg.sr.ht/](https://docs.sourcehut.org/hg.sr.ht/)
-- **Base URL:** `https://hg.sr.ht/graphql`
+- [Sourcehut Plans Pricing](https://apis.io/plans/sourcehut/sourcehut-plans-pricing/)
 
-#### Tags
+#### Rate limits (1)
 
-- Mercurial
-- Repositories
-- Source Control
-- GraphQL
+Published request limits.
 
-#### Properties
+- [Sourcehut Rate Limits](https://apis.io/rate-limits/sourcehut/sourcehut-rate-limits/)
 
-- [Documentation](https://docs.sourcehut.org/hg.sr.ht/)
-- [Graph Q L](https://hg.sr.ht/graphql)
+#### FinOps (1)
 
-### builds.sr.ht GraphQL API
+What the API costs to run, by operation.
 
-GraphQL API for submitting and managing continuous integration build jobs across Linux distributions and BSDs on SourceHut.
+- [Sourcehut Finops](https://apis.io/finops/sourcehut/sourcehut-finops/)
 
-- **Human URL:** [https://docs.sourcehut.org/builds.sr.ht/](https://docs.sourcehut.org/builds.sr.ht/)
-- **Base URL:** `https://builds.sr.ht/graphql`
+## Where to find this API
 
-#### Tags
-
-- Continuous Integration
-- Build Automation
-- CI/CD
-- GraphQL
-
-#### Properties
-
-- [Documentation](https://docs.sourcehut.org/builds.sr.ht/)
-- [Graph Q L](https://builds.sr.ht/graphql)
-
-### todo.sr.ht GraphQL API
-
-GraphQL API for managing bug trackers and ticket systems for software projects on SourceHut.
-
-- **Human URL:** [https://docs.sourcehut.org/todo.sr.ht/](https://docs.sourcehut.org/todo.sr.ht/)
-- **Base URL:** `https://todo.sr.ht/graphql`
-
-#### Tags
-
-- Issue Tracking
-- Bug Tracker
-- Project Management
-- GraphQL
-
-#### Properties
-
-- [Documentation](https://docs.sourcehut.org/todo.sr.ht/)
-- [Graph Q L](https://todo.sr.ht/graphql)
-
-### lists.sr.ht GraphQL API
-
-GraphQL API for managing mailing lists and email-based code review workflows on SourceHut, powered by git send-email conventions.
-
-- **Human URL:** [https://docs.sourcehut.org/lists.sr.ht/](https://docs.sourcehut.org/lists.sr.ht/)
-- **Base URL:** `https://lists.sr.ht/graphql`
-
-#### Tags
-
-- Mailing Lists
-- Email
-- Code Review
-- GraphQL
-
-#### Properties
-
-- [Documentation](https://docs.sourcehut.org/lists.sr.ht/)
-- [Graph Q L](https://lists.sr.ht/graphql)
-
-### meta.sr.ht GraphQL API
-
-GraphQL API for account management, OAuth 2.0 token and client administration, SSH keys, PGP keys, and user profile operations on SourceHut.
-
-- **Human URL:** [https://man.sr.ht/meta.sr.ht/](https://man.sr.ht/meta.sr.ht/)
-- **Base URL:** `https://meta.sr.ht/graphql`
-
-#### Tags
-
-- Account Management
-- OAuth
-- Authentication
-- GraphQL
-
-#### Properties
-
-- [Documentation](https://man.sr.ht/meta.sr.ht/)
-- [Graph Q L](https://meta.sr.ht/graphql)
-
-### paste.sr.ht GraphQL API
-
-GraphQL API for creating and managing text pastes on SourceHut.
-
-- **Human URL:** [https://docs.sourcehut.org/paste.sr.ht/](https://docs.sourcehut.org/paste.sr.ht/)
-- **Base URL:** `https://paste.sr.ht/graphql`
-
-#### Tags
-
-- Paste
-- Text Sharing
-- GraphQL
-
-#### Properties
-
-- [Documentation](https://docs.sourcehut.org/paste.sr.ht/)
-- [Graph Q L](https://paste.sr.ht/graphql)
-
-### man.sr.ht GraphQL API
-
-GraphQL API for creating and managing wiki and manual pages hosted on SourceHut using git-backed Markdown content.
-
-- **Human URL:** [https://docs.sourcehut.org/man.sr.ht/](https://docs.sourcehut.org/man.sr.ht/)
-- **Base URL:** `https://man.sr.ht/graphql`
-
-#### Tags
-
-- Wiki
-- Documentation
-- Markdown
-- GraphQL
-
-#### Properties
-
-- [Documentation](https://docs.sourcehut.org/man.sr.ht/)
-- [Graph Q L](https://man.sr.ht/graphql)
-
-### pages.sr.ht GraphQL API
-
-GraphQL API for managing static web hosting on SourceHut, deploying sites to srht.site domains.
-
-- **Human URL:** [https://docs.sourcehut.org/pages.sr.ht/](https://docs.sourcehut.org/pages.sr.ht/)
-- **Base URL:** `https://pages.sr.ht/graphql`
-
-#### Tags
-
-- Static Hosting
-- Web Pages
-- GraphQL
-
-#### Properties
-
-- [Documentation](https://docs.sourcehut.org/pages.sr.ht/)
-- [Graph Q L](https://pages.sr.ht/graphql)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://sourcehut.org)
 - [Documentation](https://man.sr.ht)
-- [Blog](https://sourcehut.org/blog/)
 - [Pricing](https://sourcehut.org/pricing/)
-- [Status Page](https://status.sr.ht)
-- [Git Hub Org](https://git.sr.ht/~sircmpwn)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/plans/sourcehut-plans-pricing.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/rate-limits/sourcehut-rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/finops/sourcehut-finops.yml)
+- [Blog](https://sourcehut.org/blog/)
+- [Status](https://status.sr.ht)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 24.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 35.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sourcehut/](https://apis.io/providers/sourcehut/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SourceHut: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sourcehut/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
